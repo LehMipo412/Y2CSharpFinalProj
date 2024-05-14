@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreEngineHierarchy\CoreEngineHierarchy.csproj" />
+    <ProjectReference Include="..\MovementAndInteraction\MovementAndInteraction.csproj" />
+    <ProjectReference Include="..\Positioning\Positioning.csproj" />
+    <ProjectReference Include="..\Rendering\Rendering.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MovmentAndInteraction">
+      <HintPath>..\..\..\TileMapEngine\TileMapEngine\MovmentAndInteraction\bin\Debug\net6.0\MovmentAndInteraction.dll</HintPath>
+    </Reference>
+    <Reference Include="Positioning">
+      <HintPath>..\..\..\Users\ASUS\source\repos\BoardGameEngine\Positioning\bin\Debug\net6.0\Positioning.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
